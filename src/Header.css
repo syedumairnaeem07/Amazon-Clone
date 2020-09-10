@@ -30,6 +30,7 @@
 }
 
 .header__searchIcon {
+	cursor: pointer;
 	padding: 5px;
 	height: 22px !important;
 	background-color: #cd9042;
@@ -62,9 +63,6 @@
 	align-items: center;
 	color: white;
 }
-
-/* .header__optionLineTwo {
-} */
 
 .header__basketCount {
 	margin-left: 10px;

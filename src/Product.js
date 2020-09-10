@@ -4,9 +4,8 @@ import "./Product.css";
 import { useStateValue } from "./StateProvider";
 
 function Product({ id, title, image, price, rating }) {
-	const [{ basket }, dispatch] = useStateValue();
-
-	console.log("My basket >>> ", basket);
+	//eslint-disable-next-line
+	const [{}, dispatch] = useStateValue();
 
 	const addtoBasket = () => {
 		dispatch({
@@ -37,7 +36,6 @@ function Product({ id, title, image, price, rating }) {
 						))}
 				</div>
 			</div>
-
 			<img src={image} alt="" />
 
 			<button onClick={addtoBasket}>Add to Basket</button>

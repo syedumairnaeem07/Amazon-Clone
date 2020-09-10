@@ -8,30 +8,23 @@ function Home() {
 			<div className="home__container">
 				<img
 					className="home__image"
-					src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+					src="https://images-na.ssl-images-amazon.com/images/G/01/kindle/journeys/MWJkMjYwNzAt/MWJkMjYwNzAt-OTE2Mjc3NDUt-w1500._CB404905545_.jpg"
 					alt=""
 				/>
 				<div className="home__row">
 					<Product
 						id="12321341"
 						title="ASUS ZenBook 15 Laptop, 15.6” UHD 4K NanoEdge Display, Intel Core i7-10510U"
-						price="1131.71"
+						price={1131.71}
 						rating={4}
 						image="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Home_Premium_Storefront.jpg"
 					/>
 					<Product
 						id="49538094"
 						title="Asus ZenBook Pro Duo UX581 15.6” 4K UHD NanoEdge Bezel Touch, Intel Core i7-9750H"
-						price="2299.99"
+						price={2299.99}
 						rating={4}
 						image="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Creator_DualScreen_Storefront.jpg"
-					/>
-					<Product
-						id="69538094"
-						title="HP Pavilion x360 14-Inch 2-in-1 Convertible Laptop, Intel Core i5, 8 GB RAM, 512 GB SSD Storage"
-						price="739.99"
-						rating={4}
-						image="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/2in1_OnTheGo_Storefront.jpg"
 					/>
 				</div>
 				<div className="home__row">
@@ -48,6 +41,13 @@ function Home() {
 						price={598.99}
 						rating={4}
 						image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+					/>
+					<Product
+						id="69538094"
+						title="HP Pavilion x360 14-Inch 2-in-1 Convertible Laptop, Intel Core i5, 8 GB RAM, 512 GB SSD Storage"
+						price={739.99}
+						rating={4}
+						image="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/2in1_OnTheGo_Storefront.jpg"
 					/>
 				</div>
 				<div className="home__row">
